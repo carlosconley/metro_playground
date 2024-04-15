@@ -29,6 +29,9 @@ body {
     height: 100vh;
     width: 3000px;
     background-color: gray;
+    transition-property: transform;
+    transition-duration: 50ms;
+    transition-behavior: linear;
 }
 
 .station {
