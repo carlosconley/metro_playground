@@ -15,7 +15,7 @@ function tick(ms) {
     let seconds = ms / 1000
 
     // browser only updates style changes when needed
-    map.style.transform = `translate(${center[0] * 100}vw, ${center[1] * 100}vh)`
+    map.style.transform = `translate(${center[0] * 100}vw, ${0}vh)`
 
     if (fpsUpdate == 10) {
         let delta = (seconds - time) / 10
